@@ -1,0 +1,48 @@
+.newTask{
+  position: absolute;
+  left:350px;
+  top:150px;
+  display: none;
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+}
+.about{
+  position: absolute;
+  left:350px;
+  top:50px;
+  display: none;
+  border: 1px solid black;
+  height: 570px;
+  width: 500px;
+}
+.configuration{
+  position: absolute;
+  left:350px;
+  top:150px;
+  display: none;
+  border: 1px solid black;
+  height: 100px;
+  width: 250px;
+}
+.bar{background-color: black; height:20px; position: absolute; width: 100%;}
+.progressBarContainer{position: relative; margin: auto; height: 60px; width: 100%;}
+
+.progressBar{
+  border: 1px solid black;
+  display: none;
+  height: 50px;
+  width: 550px;
+}
+.container{
+  border: 1px solid black;
+  width: 550px;
+}
+.tasks{
+  border: 1px solid black;
+  width: 490px;
+}
+.close{
+  border: 1px solid black;
+  float: right;
+}
